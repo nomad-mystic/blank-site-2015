@@ -1,0 +1,25 @@
+$mycolor: #4345f6;
+
+body {
+	background: $mycolor;
+}
+.container {
+	nav {
+		background: red;
+	}
+	section {
+		background: $mycolor;
+	}
+	footer {
+		background: green;
+		ul {
+			li {
+				background: green;
+				a {
+					color: red;
+				}
+			}
+		}
+	}// end footer 
+
+}
